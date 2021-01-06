@@ -1,0 +1,17 @@
+fruits=["apples", "banana", "cherry"]
+
+length=len(fruits)
+print("length of array: " + str(length))
+
+#for loop
+#count = 0
+#result = fruits[count]
+#print(result)
+
+#while loop
+
+count = 0
+while(count != length):
+	result = fruits[count]
+	print(result)
+	count += 1
